@@ -86,7 +86,7 @@ namespace OpenTween
                                     "(?<url>(?<protocol>https?://)?" +
                                     "(?<domain>" + url_valid_domain + ")" +
                                     "(?::" + url_valid_port_number + ")?" +
-                                    "(?<path>" + pth + "*)" +
+                                    "(?<path>/" + pth + "*)?" +
                                     qry +
                                     ")";
 
